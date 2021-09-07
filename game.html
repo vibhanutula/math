@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>Game On!</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="game.css">
+        <script src="game.js"></script>
+    </head>
+    <body class="BackBody" onload="Names()">
+        <button id="Back" onclick="Back()" style="background-color: rgb(51, 85, 0); margin-top: 30px; margin-left: 30px;">Back</button>
+        <br>
+        <h4 id="P1t" style="color: rgb(153, 255, 0); margin-top: 30px; margin-left: 30px;">Player1: </h4><span id="score1"></span>
+        <h4 id="P2t" style="color: rgb(153, 255, 0); margin-top: 30px; margin-left: 30px;">Player2: </h4><span id="score2"></span>
+        <center>
+            <img src="Math Quiz Game On!.png" id="Logo">
+            <br>
+            <br>
+            <h1>Math Quiz: Game On!</h1>
+            <div id="AnsBox" style="background-color: greenyellow; width: 500px; border-radius: 50px;"></div>
+            <br>
+            <br>
+            <h4 id="Q"></h4>
+            <h4 id="A"></h4>
+            <br>
+            <br>
+            <br>
+            <h5>1st Number Here</h5>
+            <br>
+            <br>
+            <input type="number" id="No1" placeholder="Number 1 Here">
+            <br>
+            <br>
+            <h5>2nd Number Here</h5>
+            <br>
+            <br>
+            <input type="number" id="No2" placeholder="Number 2 Here">
+            <br>
+            <br>
+            <br>
+            <button id="Send" type="button" style="width: 200px; color: rgb(180, 255, 184); background-color: rgb(48, 80, 0);" onclick="Question()">Send Numbers</button>
+            <br>
+        </center>
+    </body>
+</html>

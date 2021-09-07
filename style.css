@@ -1,0 +1,55 @@
+.Back{
+    background-image: url("Purple.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+body{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(137, 43, 226);
+}
+
+#Multi{
+    border: 5px rgb(132, 0, 255) dashed;
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+}
+
+#LoginDiv1{
+    background-color: rgb(221, 185, 255);
+    border-radius: 10px;
+    margin-left: 520px;
+}
+
+#LoginDiv2{
+    background-color: rgb(221, 185, 255);
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-left: 520px;
+}
+
+
+label{
+    
+    color: rgb(132, 0, 255);
+
+}
+
+#Login{
+    margin-top: 1px;
+}
+
+.Fancy{
+    font-family: cursive;
+	font-size: 15px;
+	line-height: 20px;
+	width: 80%;
+	height: 50px;
+	color: #ffffff;
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgb(223, 205, 205);
+    outline: none;
+}
